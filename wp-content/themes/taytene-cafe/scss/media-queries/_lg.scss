@@ -1,0 +1,65 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Desktop
+
+******************************************************************/
+
+/*************************
+ * GENERAL
+ ************************/
+
+/*************************
+ * HEADER
+ ************************/
+ #masthead {}
+ #logo {
+	a {
+		img {
+			width:80px;
+		}
+	}
+}
+.site-name{
+	display:inline-block;
+	a{
+		color:$color__clouds;
+		font-weight:bold;
+	}
+}
+/*************************
+ * POSTS & CONTENT
+ ************************/
+.menu {
+}
+ #inner-content {
+
+	padding:0;
+
+	// headers
+
+	.page-header {
+		height:80vh;
+		text-align:center;
+		#page-header-text{
+			color:$color__clouds;
+			text-align:center;
+			p{
+				font-size:24px;
+				font-weight:bold;
+			}
+			h1{
+				font-size:64px;
+				font-weight:bold;
+			}
+		}
+	}
+}
+/*************************
+ * SIDEBARS & ASIDES
+ ************************/
+
+/*************************
+ * FOOTER
+ ************************/

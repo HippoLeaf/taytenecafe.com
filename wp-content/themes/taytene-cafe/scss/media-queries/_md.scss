@@ -1,0 +1,60 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Tablet
+
+******************************************************************/
+
+/*************************
+ * GENERAL
+ ************************/
+
+/*************************
+ * HEADER
+ ************************/
+ body:not(.home) #masthead{
+	 position:static;
+ }
+ #masthead{
+	position:absolute;
+	width:100%;
+	padding-top:1em;
+	padding-bottom:1em;
+ }
+ #logo{
+	 text-align:left;
+ }
+
+/*************************
+ * POSTS & CONTENT
+ ************************/
+
+ .menu {
+ }
+
+.has-left-sidebar #main {
+	padding-left: 0;
+}
+
+.has-right-sidebar #main {
+	padding-right: 0;
+}
+
+/*************************
+ * SIDEBARS & ASIDES
+ ************************/
+
+.has-left-sidebar,
+.has-right-sidebar {
+	.sidebar {
+		margin-top: 0.5em;
+	}
+}
+
+/*************************
+ * FOOTER
+ ************************/
+ #back-top {
+	 bottom: 35px;
+ }
